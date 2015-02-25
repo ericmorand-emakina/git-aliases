@@ -1,0 +1,6 @@
+# git-aliases - v1.0.0 - 2015-02-25
+git config --global alias.br "branch -vv"
+git config --global alias.co "checkout"
+git config --global alias.last "log -1"
+git config --global alias.st "status --porcelain"
+git config --global alias.unstage 'reset HEAD --'
