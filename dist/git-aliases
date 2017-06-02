@@ -5,3 +5,4 @@ git config --global alias.gr "log --graph --oneline"
 git config --global alias.last "log -1"
 git config --global alias.st "status --porcelain"
 git config --global alias.unstage 'reset HEAD --'
+git config --global alias.clean-br '!git for-each-ref --format "%(refname:short)" refs/heads | xargs git branch -D'
